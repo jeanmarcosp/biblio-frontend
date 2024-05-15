@@ -3,17 +3,35 @@ html {
   font-family: "Roboto", sans-serif;
   background: white;
   height: 100%;
-}
-.logo {
-  background-image: url("img/image.jpg");
-  width: 100px;
-  height: 100px;
-  background-repeat: no-repeat;
-  background-size: contain;
+  margin:0;
 }
 :root {
   text-size-adjust: 100%;
 }
-.active {
-  color: pink;
+.navbar {
+  background-color: #40a35a;
+  overflow: hidden;
+}
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+.navbar li {
+  float: left;
+}
+
+.navbar li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover {
+  background-color: #ddd;
+  color: black;
 }
