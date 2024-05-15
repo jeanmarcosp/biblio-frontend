@@ -5,6 +5,10 @@ Biblio
 
 TODO: a community book exchange that's main goals are to help users save money, encourage more reading, reduce overconsumption, and build community
 
+![low-fi sketch](mockup1.png)
+![hi-fi sketch](mockup2.png)
+
+
 
 
 ## Architecture
