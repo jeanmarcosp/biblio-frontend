@@ -9,15 +9,32 @@ TODO: a community book exchange that's main goals are to help users save money, 
 
 ## Architecture
 
-TODO:  descriptions of code organization and tools and libraries used
+TODO: 
+
+Vite
+React, React Router
+ESLint
+Autoprefixer:
+Sass
 
 ## Setup
 
 TODO: how to get the project dev environment up and running, npm install etc
 
+git clone https://github.com/dartmouth-cs52-24s/project-client-biblio.git
+cd frontend-starterpack-jeanmarcosp
+npm install
+
+
+
 ## Deployment
 
 TODO: how to deploy the project
+
+npm run test - start the server
+npm run dev - build the server
+npm run build
+
 
 ## Authors
 
