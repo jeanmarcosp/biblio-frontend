@@ -1,9 +1,11 @@
 # Project Name
-
-![Team Photo](Insert a Team Photo URL here)
+Biblio
+![Team Photo](biblio_teamphoto.jpeg)
 [*how?*](https://help.github.com/articles/about-readmes/#relative-links-and-image-paths-in-readme-files)
 
-TODO: short project description, some sample screenshots or mockups
+TODO: a community book exchange that's main goals are to help users save money, encourage more reading, reduce overconsumption, and build community
+
+
 
 ## Architecture
 
@@ -19,6 +21,12 @@ TODO: how to deploy the project
 
 ## Authors
 
-TODO: list of authors
+TODO: 
+Jeanmarcos Perez
+Christian King Nyamekye
+Maya Folasade Cole
+Paige Marie Nakai
+Abdibaset Ahmed Bare
+
 
 ## Acknowledgments
