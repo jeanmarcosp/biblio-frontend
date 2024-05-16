@@ -7,7 +7,7 @@ TODO: a community book exchange that's main goals are to help users save money, 
 
 ![low-fi sketch](mockup1.png)
 ![hi-fi sketch](mockup2.png)
-
+[Figma Prototype](https://www.figma.com/design/SXQm9nYUGNsUjumvxsll7X/biblio-design-file?t=9M1UaofOWGRBIG3Y-0)
 
 
 
@@ -43,10 +43,10 @@ npm run build
 ## Authors
 
 TODO: 
-Jeanmarcos Perez
-Christian King Nyamekye
-Maya Folasade Cole
-Paige Marie Nakai
+Jeanmarcos Perez, 
+Christian King Nyamekye, 
+Maya Folasade Cole, 
+Paige Nakai, 
 Abdibaset Ahmed Bare
 
 
