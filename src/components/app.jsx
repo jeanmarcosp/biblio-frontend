@@ -4,6 +4,8 @@ import {
 } from 'react-router-dom';
 import NavBar from './nav-bar';
 import Home from './home';
+import Profile from './profile';
+import Education from './education';
 
 function FallBack(props) {
   return <div>URL Not Found</div>;
@@ -16,9 +18,9 @@ function App(props) {
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
-          {/* <Route path="/posts/:postID" element={<Post />} /> */}
+          <Route path="/profile" element={<Profile />} />
           <Route path="*" element={<FallBack />} />
-          {/* <Route path="/posts/search/:queryString" element={<SearchResults />} /> */}
+          <Route path="/how-it-works" element={<Education />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -1,14 +1,21 @@
 import React from 'react';
+import logo from '../assets/logo.png';
 
 function NavBar() {
   return (
     <nav className="navbar">
-      <ul>
-        <li><a href="/">Home</a></li>
-        <li><a href="#">About</a></li>
-        <li><a href="#">Services</a></li>
-        <li><a href="#">Contact</a></li>
-      </ul>
+
+      <div className="brand-header">
+        <img className="logo" src={logo} alt="biblio logo" />
+        biblio
+      </div>
+      <div className="menu-items">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/how-it-works">How It Works</a></li>
+          <li><a href="/profile">Profile</a></li>
+        </ul>
+      </div>
     </nav>
   );
 }
