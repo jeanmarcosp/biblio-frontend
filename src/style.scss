@@ -1,6 +1,6 @@
 body,
 html {
-  font-family: "Roboto", sans-serif;
+  font-family: "Poppins", sans-serif;
   background: white;
   height: 100%;
   margin:0;
@@ -9,29 +9,43 @@ html {
   text-size-adjust: 100%;
 }
 .navbar {
-  background-color: #40a35a;
+  // background-color: #40a35a;
   overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.brand-header{
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 35px;
+  padding: 0px 30px;
+  display: flex;
+  align-items: center;
+  color: #3C61EB;
+}
+.logo{
+  width: 40px;
+  margin-right: 10px;
+}
+.menu-items{
+  margin-right: 20px;
 }
 .navbar ul {
   list-style-type: none;
-  margin: 0;
-  padding: 0;
   overflow: hidden;
 }
-
 .navbar li {
   float: left;
 }
-
 .navbar li a {
   display: block;
-  color: white;
+  color: #3C61EB;  
   text-align: center;
-  padding: 14px 16px;
+  padding: 8px 16px;
   text-decoration: none;
 }
-
 .navbar li a:hover {
-  background-color: #ddd;
-  color: black;
+  background-color: #F3F4FD;
+  border-radius: 8px;
 }
