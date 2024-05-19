@@ -1,4 +1,5 @@
 import React from 'react';
+import { Checkbox } from '@mantine/core';
 import useStore from '../store';
 
 function Home() {

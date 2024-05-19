@@ -6,6 +6,7 @@ import NavBar from './nav-bar';
 import Home from './home';
 import Profile from './profile';
 import Education from './education';
+import '@mantine/core/styles.css';
 
 function FallBack(props) {
   return <div>URL Not Found</div>;
