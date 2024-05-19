@@ -9,8 +9,6 @@ html {
   text-size-adjust: 100%;
 }
 .navbar {
-  // background-color: #40a35a;
-  overflow: hidden;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -22,7 +20,7 @@ html {
   padding: 0px 30px;
   display: flex;
   align-items: center;
-  color: #3C61EB;
+  color: #FAB007;
 }
 .logo{
   width: 40px;
@@ -40,12 +38,57 @@ html {
 }
 .navbar li a {
   display: block;
-  color: #3C61EB;  
+  color: #FAB007;  
   text-align: center;
   padding: 8px 16px;
   text-decoration: none;
 }
 .navbar li a:hover {
-  background-color: #F3F4FD;
+  background-color: #FEF7EA;
   border-radius: 8px;
+}
+.profile{
+  background-color: rgb(239, 239, 239);
+  height: 100vh;
+  padding: 10px 10px;
+  display: flex;
+}
+.left-dash{
+  background-color: white;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 20%;
+  height: 100%;
+  padding: 10px 10px;
+  margin-right: 10px;
+}
+.center-dash{
+  // background-color: red;
+  width: 55%;
+  border-radius: 20px;
+  margin-right: 10px;
+}
+.center-top-dash{
+  background-color: white;
+  border-radius: 20px;
+  height: 55%;
+  margin-bottom: 10px;
+  color:"yellow" !important;
+  padding: 10px 20px;
+
+}
+.center-botton-dash{
+  background-color: white;
+  border-radius: 20px;
+  height: 44%;
+  padding: 10px 20px;
+}
+.right-dash{
+  background-color: white;
+  border-radius: 20px;
+  width: 25%;
+  height: 100%;
+  padding: 10px 20px;
 }
